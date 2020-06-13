@@ -20,12 +20,12 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 20px;
-	/* background-color: red; */
 }
 
 .header__logo h1{
+	display: inline;
 	color: whitesmoke;
-	/* background-color: blue; */
+	white-space: nowrap
 }
 
 .header__menu {
@@ -35,11 +35,11 @@ header {
 	
 }
 
-.header__inner li {
+.header__menu li {
 	padding: 0 20px;
 }
 
-.header__inner li:last-child{
+.header__menu li:last-child{
 	padding-right: 0;
 }
 
