@@ -43,7 +43,11 @@ header {
 }
 
 .header__inner li a {
-	color: whitesmoke;
+    /* font-weight: 900; */
+	color: #B3C0CC;
+}
+.header__inner li a:hover {
+	color: white;
 }
 
 .toggle-btn {
@@ -67,6 +71,8 @@ header {
     .header__menu {
         display: none;
         flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
         width: 100%;
     }
     .header__menu.active {
